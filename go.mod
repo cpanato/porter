@@ -35,40 +35,59 @@ require (
 	github.com/cbroglie/mustache v1.0.1
 	github.com/cnabio/cnab-go v0.19.0
 	github.com/cnabio/cnab-to-oci v0.3.1-beta1.0.20210614060230-e4d2bd5441c8
-	github.com/containerd/cgroups v0.0.0-20200710171044-318312a37340 // indirect
-	github.com/containerd/containerd v1.3.0
-	github.com/containerd/continuity v0.0.0-20200228182428-0f16d7a0959c // indirect
-	github.com/containerd/fifo v0.0.0-20191213151349-ff969a566b00 // indirect
-	github.com/containerd/ttrpc v1.0.0 // indirect
-	github.com/containerd/typeurl v1.0.0 // indirect
-	github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017
-	github.com/docker/distribution v2.7.1+incompatible
-	github.com/docker/docker v1.4.2-0.20181229214054-f76d6a078d88
-	github.com/docker/go-metrics v0.0.1 // indirect
-	github.com/dustin/go-humanize v1.0.0
+	github.com/containerd/containerd v1.7.13
+	github.com/containerd/continuity v0.4.3 // indirect
+	github.com/containerd/stargz-snapshotter/estargz v0.15.1 // indirect
+	github.com/distribution/reference v0.5.0 // indirect
+	github.com/docker/cli v25.0.3+incompatible
+	github.com/docker/distribution v2.8.2+incompatible
+	github.com/docker/docker v25.0.3+incompatible
+	github.com/docker/docker-credential-helpers v0.8.0 // indirect
+	github.com/docker/go-connections v0.5.0 // indirect
+	github.com/dustin/go-humanize v1.0.1
+	github.com/emicklei/go-restful/v3 v3.10.2 // indirect
+	github.com/fvbommel/sortorder v1.1.0 // indirect
 	github.com/ghodss/yaml v1.0.0
 	github.com/gobuffalo/packr/v2 v2.8.0
-	github.com/gogo/googleapis v1.3.2 // indirect
-	github.com/google/go-containerregistry v0.0.0-20191015185424-71da34e4d9b3
-	github.com/hashicorp/go-hclog v0.14.1
-	github.com/hashicorp/go-multierror v1.1.0
+	github.com/google/go-containerregistry v0.14.0
+	github.com/google/pprof v0.0.0-20230323073829-e72429f035bd // indirect
+	github.com/google/uuid v1.5.0 // indirect
+	github.com/hashicorp/go-hclog v1.2.0
+	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-plugin v1.4.0
-	github.com/hashicorp/go-version v1.2.0 // indirect
-	github.com/magefile/mage v1.11.0
+	github.com/imdario/mergo v0.3.13 // indirect
+	github.com/klauspost/compress v1.17.4 // indirect
+	github.com/magefile/mage v1.14.0
 	github.com/mikefarah/yq/v3 v3.0.0-20201020025845-ccb718cd0f59
 	github.com/mmcdole/gofeed v1.0.0-beta2
 	github.com/mmcdole/goxpp v0.0.0-20181012175147-0068e33feabf // indirect
-	github.com/olekukonko/tablewriter v0.0.4
+	github.com/moby/patternmatcher v0.6.0 // indirect
+	github.com/moby/sys/mountinfo v0.7.1 // indirect
+	github.com/moby/term v0.5.0 // indirect
+	github.com/olekukonko/tablewriter v0.0.5
+	github.com/onsi/ginkgo/v2 v2.13.2 // indirect
+	github.com/onsi/gomega v1.30.0 // indirect
+	github.com/opencontainers/image-spec v1.1.0-rc5 // indirect
 	github.com/pivotal/image-relocation v0.0.0-20191111101224-e94aff6df06c
 	github.com/pkg/errors v0.9.1
-	github.com/spf13/afero v1.4.1
-	github.com/spf13/cobra v1.1.3
+	github.com/prometheus/client_golang v1.17.0 // indirect
+	github.com/prometheus/client_model v0.5.0 // indirect
+	github.com/prometheus/procfs v0.12.0 // indirect
+	github.com/spf13/afero v1.9.2
+	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.4
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.46.1 // indirect
+	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/sync v0.5.0
+	google.golang.org/genproto v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/grpc v1.59.0 // indirect
 	gopkg.in/AlecAivazis/survey.v1 v1.8.7
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
+	k8s.io/client-go v0.28.3 // indirect
+	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
 )
